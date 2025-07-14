@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+/*
+Author: Eduardo Garcia
+Last Updated: July 13, 2025
+*/
+
+html {
+   height: 100%;
+}
+
+body {
+   font-family: Tahoma, Geneva, sans-serif;
+   font-size: 14pt;
+   min-height: 100%;
+   width: 90%;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: whitesmoke;
+}
+
+nav > ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: darkslateblue;
+}
+
+nav > ul > li {
+   float: left;
+}
+
+nav > ul > li a {
+   display: block;
+   color: azure;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+nav > ul > li a:hover:not(.active) {
+  background-color: black;
+}
+
+h1 {
+   text-indent: 10px;
+   color: blue;
+   background-color: hsl(40, 100%, 70%);
+}
+
+h2 {
+   text-indent: 15px;
+   color: hsla(240, 100%, 40.2%, 1);
+   background-color: hsla(38, 90%, 60%, 0.5);
+}
+
+section {
+   margin: auto;
+   width: 90%;
+   background-color: ivory;
+}
+
+p {
+   padding: 15px 60px 15px 20px;
+}
+
+section#leftColumn {
+   float: left;
+   width: 50%;
+}
+
+section#rightColumn {
+   float: right;
+   width: 50%;
+}
+
+footer {
+   clear: both;
+   display: block;
+   background-color: hsla(225, 72%, 57%, 0.1);
+}
